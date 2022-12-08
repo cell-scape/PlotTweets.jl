@@ -3,6 +3,14 @@ uuid = "d7cd8a3a-8bf8-47d9-b3f8-8796cec3f09a"
 authors = ["Bradley Dowling <brad.dowling@protonmail.com> and contributors"]
 version = "0.1.0"
 
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DataFramesMeta = "1313f7d8-7da2-5740-9ea0-a2ca25f37964"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+PlotlyJS = "f0f68f2c-4968-5e81-91da-67840de0976a"
+RDKafka = "43e2f499-f4c7-585f-8317-cbc2d9c3bf8f"
+
 [compat]
 julia = "1"
 
