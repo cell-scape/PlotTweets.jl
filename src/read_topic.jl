@@ -29,3 +29,11 @@ function build_dataframe(messages; rules=RULES, old_df=nothing)
     return vcat(old_df, df)
 end
 
+
+function get_statistics(df)
+    gdf = groupby(df, "sentiment")
+    sent = combine(gdf, nrow => :count)
+    gdf = groupby(df, "subjectivity")
+    subj = combine(gdf, nrow => :count)
+    return sent, subj
+end
