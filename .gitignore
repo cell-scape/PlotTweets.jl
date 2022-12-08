@@ -1,2 +1,4 @@
 /Manifest.toml
 /python*
+/checkpoint
+.DS_Store
